@@ -13,33 +13,52 @@
 
 <hr>
 <div class="grid-container">
-    <a href="0-BasePage.html">PRINCIPAL</a>
+    <a href="index.html">PRINCIPAL</a>
     <a href="1-Programa.html">PROGRAMAÇÃO</a>
     <a href="https://github.com/VIMercurial/">GITHUB</a>
-    <a href="2-Jogos.html">JOGOS</a>
-    <a href="3-Contato.html">CONTATO</a>   
+    <a href="2-Jogos.html">JOGOS</a> 
 </div>
 <hr>
 
 <h3 class="header">PORTFÓLIO DE PROGRAMAÇÃO</h3>
 
 <p class="centertext">Na página abaixo você terá alguns pequenos projetinhos feitos
-em Javascript que serão ambos disponíveis aqui, tanto quanto em meu Github! (Link no topo da página!)
+em Javascript que serão ambos disponíveis aqui, tanto quanto em meu Github! (Link no topo e na base da página!)
 </p>
 
-<body>
+<hr>
+
+<h4 class="header">CALCULADORA EM JAVASCRIPT</h4>
+<p class="centertext">Eis aqui uma pequena caluladora feita usando Javascript como um exercício de Domingo.</p>
+<textarea maxlength="10" id="Number1" rows="1" cols="4"></textarea>
+
+<input type="checkbox" class="CalcRadio" id="plus" name="operator">
+<label for="plus">SOMA</label>
+<input type="checkbox" class="CalcRadio" id="minus" name="operator">
+<label for="minus">SUBTRAIR</label>
+<input type="checkbox" class="CalcRadio" id="division" name="operator">
+<label for="division">DIVISÃO</label>
+<input type="checkbox" class="CalcRadio" id="multi" name="operator">
+<label for="multi">MULTIPLICAÇÃO</label>
+
+<textarea maxlength="10" id="Number2" rows="1" cols="4"></textarea>
+
+<br>
+
+<button onclick="JSCalculator()">Fazer Operação</button>
+</body>
 
 <footer>
 
     <hr>
     <div class="grid-container">
-        <a href="0-BasePage.html">PRINCIPAL</a>
+        <a href="index.html">PRINCIPAL</a>
         <a href="1-Programa.html">PROGRAMAÇÃO</a>
         <a href="https://github.com/VIMercurial/">GITHUB</a>
-        <a href="2-Jogos.html">JOGOS</a>
-        <a href="3-Contato.html">CONTATO</a>   
+        <a href="2-Jogos.html">JOGOS</a>  
     </div>
     <hr>
 
     <link rel="stylesheet" href="CSS.css">
+    <script src="JSCodes.js"></script>
 </footer>
