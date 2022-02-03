@@ -21,29 +21,10 @@ body {
     grid-row-start: 5;
 }
 
-label{
+.Reloginho{
     color: crimson;
-    margin-left: 50%;
-    margin-right: 50%;
-}
-
-button{
-    color: black;
-    background-color: red;
     text-align: center;
-    margin-left: 49%;
-    margin-right: 50%;
 }
-
-
-.CalcRadio{
-    display: table;
-    margin-left: 50%;
-    margin-right: 50%;
-    text-align: center;
-    grid-row-start: 5;
-}
-
 
 .centertext {
     color : darkred;
@@ -55,10 +36,34 @@ button{
 .centertextform {
     color : red;
     text-underline-position: below;
-    margin-left: 45%;
     margin-right: 50%;
     text-align : center;
 
+}
+
+.CalcRadio{
+    display: table;
+    margin-left: 50%;
+    margin-right: 50%;
+    text-align: center;
+    grid-row-start: 5;
+}
+
+
+
+label{
+    color: crimson;
+    margin-left: 49%;
+}
+
+
+
+button{
+    color: black;
+    background-color: red;
+    text-align: center;
+    margin-left: 49%;
+    margin-right: 50%;
 }
 
 a:link {
