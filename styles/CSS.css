@@ -2,26 +2,47 @@ html{
     background-color: black;
 }
 
-.textInside{
+.textInsideRed{
     width: auto;
-    color: red;
+    color: #BB0000;
 }
 
-.textJustify{
+.textJustifyRed{
     text-align: justify;
-    color: red;
+    color: #BB0000;
 }
 
-.textCenter{
+.textCenterRed{
     text-align: center;
-    color: red;
+    color: #BB0000;
 }
+
+.textCenterRedFOCUS{
+    text-align: center;
+    color: #FF0000;
+}
+
+.textInsideBlue{
+    width: auto;
+    color: #0000BB;
+}
+
+.textJustifyBlue{
+    text-align: justify;
+    color: #0000BB;
+}
+
+.textCenterBlue{
+    text-align: center;
+    color: #0000BB;
+}
+
 
 h4{
     width: auto;
 }
 
-.listLinks{    
+.listLinks{
     margin: 5px;
 }
 
@@ -53,14 +74,14 @@ h4{
 
 .boxHeader{
     width: auto;
-    background-color: #770000;
+    background-color: #330000;
     margin-top:-31px;
     margin-left:1px;
 }
 
 .boxHeaderText{
     width: auto;
-    color: red;
+    color: #BB0000;
     font-family: 'Open Sans', sans-serif;
     margin-top:-31px;
     margin-left:1px;
@@ -72,7 +93,7 @@ ul{
 
 
 .boxMain {
-    width: auto;    
+    width: auto;
     border-radius: 4px;
     border-top: 30px solid #aa0000;
     border-left: 1px solid #aa0000;
