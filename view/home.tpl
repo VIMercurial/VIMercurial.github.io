@@ -1,31 +1,6 @@
-<?php
-/* Smarty version 4.2.1, created on 2022-10-24 02:04:47
-  from 'C:\XAMPP\htdocs\VIMercurial\view\index.tpl' */
-
-/* @var Smarty_Internal_Template $_smarty_tpl */
-if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
-  'version' => '4.2.1',
-  'unifunc' => 'content_6355d69f9fb500_84072919',
-  'has_nocache_code' => false,
-  'file_dependency' => 
-  array (
-    'a3916595c61830ac11a2d1b3f26a2bc5124a73fe' => 
-    array (
-      0 => 'C:\\XAMPP\\htdocs\\VIMercurial\\view\\index.tpl',
-      1 => 1666569886,
-      2 => 'file',
-    ),
-  ),
-  'includes' => 
-  array (
-  ),
-),false)) {
-function content_6355d69f9fb500_84072919 (Smarty_Internal_Template $_smarty_tpl) {
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt">
-<?php echo '<script'; ?>
- src="https://kit.fontawesome.com/09f222d34e.js" crossorigin="anonymous"><?php echo '</script'; ?>
->
+<script src="https://kit.fontawesome.com/09f222d34e.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles/CSS.css" type="text/css">
 <meta charset="UTF-8">
@@ -33,15 +8,14 @@ function content_6355d69f9fb500_84072919 (Smarty_Internal_Template $_smarty_tpl)
 
 <div class="boxMain">
     <div class="boxHeader">
-        <h3 class="boxHeaderText"> -+- <?php echo $_smarty_tpl->tpl_vars['name']->value;?>
- -+- </h3>
+        <h3 class="boxHeaderText"> -+- {$name} -+- </h3>
     </div>
 
     <thead class="listLinks">
-        <a class="clickLinks" href="index.php"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
-        <a class="clickLinks" href="jogos.php"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
+        <a class="clickLinks" href="{$routeHome}"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
+        <a class="clickLinks" href="{$routeGames}"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
         <a class="clickLinks" href="https://github.com/VIMercurial/"><i class="fa-brands fa-github"></i> GITHUB</a>
-        <a class="clickLinks" href="prog.php"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
+        <a class="clickLinks" href="{$routeProg}"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
     </thead>
 
     <div class="boxElements">
@@ -115,11 +89,9 @@ function content_6355d69f9fb500_84072919 (Smarty_Internal_Template $_smarty_tpl)
 
 
     <thead class="listLinks">
-        <a class="clickLinks" href="index.php"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
-        <a class="clickLinks" href="jogos.php"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
+        <a class="clickLinks" href="{$routeHome}"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
+        <a class="clickLinks" href="{$routeGames}"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
         <a class="clickLinks" href="https://github.com/VIMercurial/"><i class="fa-brands fa-github"></i> GITHUB</a>
-        <a class="clickLinks" href="prog.php"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
+        <a class="clickLinks" href="{$routeProg}"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
     </thead>
 </div>
-<?php }
-}

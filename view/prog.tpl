@@ -13,10 +13,10 @@
     </div>
 
     <thead class="listLinks">
-        <a class="clickLinks" href="index.php"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
-        <a class="clickLinks" href="jogos.php"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
+        <a class="clickLinks" href="{$routeHome}"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
+        <a class="clickLinks" href="{$routeGames}"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
         <a class="clickLinks" href="https://github.com/VIMercurial/"><i class="fa-brands fa-github"></i> GITHUB</a>
-        <a class="clickLinks" href="prog.php"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
+        <a class="clickLinks" href="{$routeProg}"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
     </thead>
 
     <div class="boxElements">
@@ -44,6 +44,14 @@
         </div>
 
         <span class="textInside textJustifyRed">
+            <h2 class="textCenterRedFOCUS"> 15-01-2023 IMPLEMENTAÇÃO NO GITHUB</h2>
+            <p>
+                Criação do Router e Configuração de acordo com a metodologia MVC.
+            </p>
+        </span>
+
+        
+        <span class="textInside textJustifyRed">
             <h2 class="textCenterRedFOCUS"> 23-10-2022 ATUALIZAÇÃO PARA MVC COM SMARTIES</h2>
             <p>
                 Comecei um trabalho no meio do ano e fui desenvolvendo novas habilidades como programador, tanto que este website agora é programado na metodologia MVC,
@@ -64,9 +72,9 @@
 
 
     <thead class="listLinks">
-        <a class="clickLinks" href="index.php"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
-        <a class="clickLinks" href="jogos.php"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
+        <a class="clickLinks" href="{$routeHome}"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
+        <a class="clickLinks" href="{$routeGames}"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
         <a class="clickLinks" href="https://github.com/VIMercurial/"><i class="fa-brands fa-github"></i> GITHUB</a>
-        <a class="clickLinks" href="prog.php"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
+        <a class="clickLinks" href="{$routeProg}"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
     </thead>
 </div>

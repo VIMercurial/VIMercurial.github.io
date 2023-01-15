@@ -13,10 +13,10 @@
     </div>
 
     <thead class="listLinks">
-        <a class="clickLinks" href="index.php"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
-        <a class="clickLinks" href="jogos.php"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
+        <a class="clickLinks" href="{$routeHome}"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
+        <a class="clickLinks" href="{$routeGames}"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
         <a class="clickLinks" href="https://github.com/VIMercurial/"><i class="fa-brands fa-github"></i> GITHUB</a>
-        <a class="clickLinks" href="prog.php"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
+        <a class="clickLinks" href="{$routeProg}"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
     </thead>
 
     <div class="boxElements">
@@ -50,9 +50,9 @@
 
 
     <thead class="listLinks">
-        <a class="clickLinks" href="index.php"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
-        <a class="clickLinks" href="jogos.php"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
+        <a class="clickLinks" href="{$routeHome}"><i class="fa-solid fa-house"></i> PRINCIPAL</a>
+        <a class="clickLinks" href="{$routeGames}"><i class="fa-solid fa-gamepad"></i> JOGOS</a>
         <a class="clickLinks" href="https://github.com/VIMercurial/"><i class="fa-brands fa-github"></i> GITHUB</a>
-        <a class="clickLinks" href="prog.php"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
+        <a class="clickLinks" href="{$routeProg}"><i class="fa-solid fa-table-list"></i> PROGRAMAÇÃO</a>
     </thead>
 </div>
