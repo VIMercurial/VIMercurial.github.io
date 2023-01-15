@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $smarty = new Smarty();
 
@@ -9,4 +9,4 @@ $smarty->assign('routeGames', Routes::get_Games());
 $smarty->assign('routeHome', Routes::get_Home());
 $smarty->assign('routeProg', Routes::get_Prog());
 
-$smarty->display('../view/prog.tpl');
+$smarty->display('view/prog.tpl');

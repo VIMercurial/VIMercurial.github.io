@@ -10,5 +10,5 @@ $smarty->assign('routeHome', Routes::get_Home());
 $smarty->assign('routeProg', Routes::get_Prog());
 
 
-$smarty->display('../view/home.tpl');
+$smarty->display('view/home.tpl');
 
