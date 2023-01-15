@@ -1,0 +1,19 @@
+{
+    "name": "vendor/paulo-vi-mercurial",
+    "description": "Description of project paulo/vi-mercurial.",
+    "authors": [
+        {
+            "name": "Paulo",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^4.3"
+    },
+    "config": {
+        "vendor-dir": "vendor/"
+    },
+    "autoload": {
+        "classmap": ["model/"]
+    }
+}
