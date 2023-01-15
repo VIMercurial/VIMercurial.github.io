@@ -2,4 +2,4 @@
 
 require 'vendor/autoload.php';
 
-Routes::redirect(Routes::get_Home());
+Routes::redirect(0, Routes::get_Home());
