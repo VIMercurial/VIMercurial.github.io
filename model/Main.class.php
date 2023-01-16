@@ -7,8 +7,8 @@
  */
 class Main {
     
-    const SITE = 'https://localhost';
-    const SITE_PASTA = '/vimercurial.github.io';
-    const DIR_VIEW = '/view';
-    const DIR_CONTROLLER = 'controller';
+    const SITE = 'https://vimercurial.github.io';
+    const SITE_PASTA = '/controller';
+    const DIR_VIEW = ';
+    const DIR_CONTROLLER = '';
 }

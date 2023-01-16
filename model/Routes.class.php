@@ -8,7 +8,7 @@
 class Routes {
 
     static function get_SiteMain() {
-        return Main::SITE . Main::SITE_PASTA .'/'. Main::DIR_CONTROLLER;
+        return Main::SITE . Main::SITE_PASTA;
         
     }
     

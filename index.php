@@ -1,4 +1,7 @@
 <?php
-    require 'vendor/autoload.php';
+    
+require 'vendor/autoload.php';
 
-    Routes::redirect(0, Routes::get_Home());
+    
+$smarty->assign('name', 'Paulo Morosov - 28 Anos - Programador');
+$smarty->assign('routeHome', Routes::get_Home());
