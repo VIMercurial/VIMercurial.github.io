@@ -8,11 +8,11 @@
 
 <div class="boxMain">
     <div class="boxHeader">
-        <h3 class="boxHeaderText"> -+- {$name} -+- </h3>
+        <h3 class="boxHeaderText"> -+- Paulo Morosov - 28 Anos - Programador -+- </h3>
     </div>
     
         <thead class="listLinks">
-        <a class="clickLinks" href="{$routeHome}"><i class="fa-solid fa-house"></i> ENTRAR</a>
+        <a class="clickLinks" href="../view/home"><i class="fa-solid fa-house"></i> ENTRAR</a>
 </div>
 
 
