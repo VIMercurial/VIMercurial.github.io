@@ -8,12 +8,12 @@
 class Routes {
 
     static function get_SiteMain() {
-        return Main::SITE . Main::SITE_PASTA;
+        return Main::SITE . Main::SITE_PASTA .'/'. Main::DIR_CONTROLLER;
         
     }
     
     static function get_Home() {
-        return self::get_SiteMain().'/home';
+        return self::get_SiteMain().'/home.php';
     }
     
     static function get_Games() {

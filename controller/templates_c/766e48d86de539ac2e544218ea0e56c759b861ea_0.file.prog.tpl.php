@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-01-15 11:58:12
+/* Smarty version 4.3.0, created on 2023-01-15 18:00:25
   from 'C:\XAMPP\htdocs\VIMercurial.github.io\view\prog.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63c3dc44b3b499_91936129',
+  'unifunc' => 'content_63c431299d7230_19890490',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '766e48d86de539ac2e544218ea0e56c759b861ea' => 
     array (
       0 => 'C:\\XAMPP\\htdocs\\VIMercurial.github.io\\view\\prog.tpl',
-      1 => 1673780269,
+      1 => 1673792071,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63c3dc44b3b499_91936129 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63c431299d7230_19890490 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="pt">
 <?php echo '<script'; ?>
@@ -74,6 +74,14 @@ function content_63c3dc44b3b499_91936129 (Smarty_Internal_Template $_smarty_tpl)
             <h3 class="boxHeaderText"> -+- NOTAS SOBRE PROGRAMAÇÃO -+-</h3>
         </div>
 
+        <span class="textInside textJustifyRed">
+            <h2 class="textCenterRedFOCUS"> 15-01-2023 IMPLEMENTAÇÃO NO GITHUB</h2>
+            <p>
+                Criação do Router e Configuração de acordo com a metodologia MVC.
+            </p>
+        </span>
+
+        
         <span class="textInside textJustifyRed">
             <h2 class="textCenterRedFOCUS"> 23-10-2022 ATUALIZAÇÃO PARA MVC COM SMARTIES</h2>
             <p>
